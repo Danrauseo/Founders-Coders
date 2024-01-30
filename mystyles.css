@@ -1,0 +1,251 @@
+
+
+h1 {
+    position: relative;
+    z-index: 102;
+    color: darkslategray;
+    background-color: rgba(255, 255, 255, 0.883);
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px;
+    letter-spacing: -3px;
+}
+
+h1:hover {
+    color: darkcyan;
+}
+
+.text {
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    word-break: break-word;
+    letter-spacing: -1px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .bodyText {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100;
+    word-break: break-word;
+    letter-spacing: -1px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+#body {
+    background-size: cover;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0; /* Remove default margin */
+    min-height: 100vh; /* Full height */
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profilePicture {
+    width: 20vw;
+    height: 20vw;
+    max-width: 200px; 
+    max-height:200px;
+    border-radius: 50%; 
+    position:relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: darkgrey;
+    display: block;
+}
+
+.profilePictureImage {
+    width: 19vw;
+    height: 19vw;
+    max-width: 190px;
+    max-height: 190px; 
+    border-radius: 50%; 
+    position:relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+}
+
+.backgroundImage {
+    background-size: cover;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-attachment: fixed;
+
+}
+
+.mainBoard {
+    background-color: rgba(255, 255, 255, 0.883);
+    width: 70%;
+    height: wrap;
+    margin-left: auto;
+    margin-right: 200 auto;
+    margin-top: -80px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 100;
+    position: relative;
+    margin-right: 1px;
+    margin-bottom: 30vw;
+}
+
+.navbar {
+    background-color: darkslategray;
+    font-family: "DM Sans", sans-serif;
+    color: white !important;
+    list-style-type: none;
+}
+
+
+.home:hover {
+    color: darkcyan !important;
+}
+
+.home:active {
+    color: black !important;
+}
+.about:hover {
+    color: darkcyan !important;
+}
+.about:active {
+    color: black !important;
+}
+
+.projects:hover {
+    color: darkcyan !important;
+}
+
+.projects:active {
+    color: black !important;
+}
+
+.social:hover {
+    color: darkcyan !important;
+}
+
+.social:active {
+    color: black !important;
+}
+
+
+
+.footer {
+    background-color: darkslategray;
+    width: 100%;
+    height: auto; /* Adjust height automatically based on content */
+    z-index: 110;
+    position: relative;
+    color: #fff;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    padding: 10px;
+    text-align: center; /* Center text for the name */
+}
+
+.name-container {
+    margin-bottom: 20px; /* Spacing between name and lists */
+}
+
+.lists-container {
+    display: flex; /* Aligns the lists side by side */
+    justify-content: center; /* Centers the lists container */
+    align-items: flex-start; /* Aligns items to the top */
+}
+
+.footerList {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0 10px; /* Adds margin to the left and right for spacing between lists */
+    text-align: left; /* Aligns the text to the left */
+    text-decoration: none;
+}
+
+.footerList li {
+    padding: 5px 0; /* Adds some vertical spacing between list items */
+}
+
+.socialMediaText {
+    color: #fff;
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    text-decoration: underline; /* Removes underline from links */
+    padding: 5px 0; /* Consistent with .footerList li */
+}
+
+.socialMediaText:hover {
+    text-decoration: underline; /* Adds an underline on hover for better UX */
+    color: darkcyan;
+}
+
+.aboutBoard {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    height: auto;
+    padding: 10px;
+    max-width: 600px;
+    margin: auto;
+    width: auto;
+
+}
+
+.barnbyDunImage {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: auto;
+    width: 90%;
+    padding: 40px;
+    text-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+}
+
+.universityImageGroup {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: auto;
+    width: 90%;
+    padding: 40px;
+    text-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin: auto;
+    width: 90%;
+    padding: 40px;
+    text-wrap: wrap;
+    display: flex;
+    align-items: flex-start;
+}
