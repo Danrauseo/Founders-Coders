@@ -11,6 +11,7 @@ h1 {
     padding-top: 30px;
     border-radius: 10px;
     letter-spacing: -3px;
+    max-width: 700px;
 }
 
 h1:hover {
@@ -202,7 +203,7 @@ h1:hover {
     border-radius: 10px;
     height: auto;
     padding: 10px;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     width: auto;
 
@@ -249,3 +250,4 @@ video {
     display: flex;
     align-items: flex-start;
 }
+
