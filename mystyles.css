@@ -93,7 +93,7 @@ h1:hover {
 
 }
 
-.mainBoard {
+.mainBoard, .aboutBoard {
     background-color: rgba(255, 255, 255, 0.883);
     width: 70%;
     height: wrap;
@@ -114,6 +114,13 @@ h1:hover {
     font-family: "DM Sans", sans-serif;
     color: white !important;
     list-style-type: none;
+    margin: 10;
+    padding: 0;
+    width: 65%;
+    border-radius: 10px;
+    position: relative;
+    min-width: 90px;
+    margin-left: 3vw;
 }
 
 
@@ -197,19 +204,7 @@ h1:hover {
     color: darkcyan;
 }
 
-.aboutBoard {
-    position: relative;
-    background-color: #fff;
-    border-radius: 10px;
-    height: auto;
-    padding: 10px;
-    max-width: 700px;
-    margin: auto;
-    width: auto;
-
-}
-
-.barnbyDunImage {
+.Image {
     width: 100%;
     height: auto;
     border-radius: 50px;
@@ -237,17 +232,21 @@ h1:hover {
     align-items: flex-start;
 }
 
-video {
-    width: 100%;
-    height: auto;
-    border-radius: 50px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin: auto;
-    width: 90%;
-    padding: 40px;
-    text-wrap: wrap;
-    display: flex;
-    align-items: flex-start;
+.button {
+    background-color: darkslategray;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 65%;
 }
-
